@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>The Drum Kit</h1></header>
+    <main>
+        <div class="flexboxs">
+            <button onclick="a()" class="a instrument">A</button>
+            <button onclick="b()" class="b instrument">B</button>
+            <button onclick="c()" class="c instrument">C</button>
+            <button onclick="d()" class="d instrument">D</button>
+            <button onclick="e()" class="e instrument">E</button>
+        
+    </div>
+    <script>
+        function a(){
+            var audio=new Audio("Sounds/Sounds1.wav");
+            audio.play();
+        }
+
+        function b(){
+            var audio=new Audio("Sounds/Sounds2.wav");
+            audio.play();
+        }
+
+        function c(){
+            var audio=new Audio("Sounds/Sounds3.wav");
+            audio.play();
+        }
+
+        function d(){
+            var audio=new Audio("Sounds/Sounds4.wav");
+            audio.play();
+        }
+
+        function e(){
+            var audio=new Audio("Sounds/Sounds5.wav");
+            audio.play();
+        }
+
+
+    </script>
+    </main>
+</body>
+</html>

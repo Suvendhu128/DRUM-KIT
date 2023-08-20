@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(163, 63, 83);
+}
+.flexboxs{
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 5rem;
+    color: aqua;
+    font-family: Arvo, cursive;
+    text-shadow: 3px 0 #000000;
+    text-align: center;
+}   
+
+.a{
+    background: url("https://media.wired.com/photos/5ee3d371ab5844e130e2456a/1:1/w_1800,h_1800,c_limit/Gear-FenderHP-1-Blue.jpg");
+    background-size: 150px 150px;
+}
+.b{
+    background: url("https://theblockzone.com/cdn/shop/products/q5_c1b76836-b6b4-460c-bed0-abc1e3e200b6_740x.png?v=1634914633");
+    background-size: 150px 150px;
+}
+.c{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmlr7Vn72b32jHrhLVjVd98EiUCVGKjIVx34n9SPVujvar0uoDboGy7CNLtzt2bXLlt6c&usqp=CAU");
+    background-size: 150px 150px;
+}
+.d{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8Genmaomz2cyUH3vVVk_YA6Bm3HY3sjaVMA&usqp=CAU");
+    background-size: 150px 150px;
+}
+.e{
+    background: url("https://cdn.rebrickable.com/media/thumbs/mocs/moc-44825.jpg/1000x800.jpg");
+    background-size: 150px 150px;
+}
+
+.instrument{
+    outline: none;
+    background-color: white;
+    border: 10px solid #404869;
+    height: 150px;
+    width: 150px;
+    font-size: 5rem;
+    margin: 10px;
+    font-family: Arvo, cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #0dedf5;
+    text-shadow: 3px 0 #242627;
+    border-radius: 15px;
+    text-align: center;      
+}
+
